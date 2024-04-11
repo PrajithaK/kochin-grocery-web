@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.navbar {
+    height: 72px;
+    position: fixed;
+    background: #fff;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    right: 0;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    width: 100%;
+    height: 68px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.left {
+    width: 73%;
+}
+
+.left-dt {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    width: 100%;
+    margin-left: 43px;
+}
+
+.logo-image {
+    background: #fff;
+    padding: 5px 10px 10px 10px;
+    border-radius: 12px;
+}
+
+.logo-image img {
+    height: 40px;
+    width: 135px;
+}
+
+.location {
+    margin: 0 30px 0 30px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: -1%;
+}
+
+.loc-icon {
+    color: #009688;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 4px;
+}
+
+.deliver-loc {
+    color: #7d8082;
+    line-height: 26px;
+}
+
+.actual-loc {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #0b112f;
+    background: #fff;
+    border-radius: 12px;
+    letter-spacing: .5px;
+}
+
+.down-arrow {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.search {
+    width: 66%;
+    margin-top: -13px;
+    margin-left: 1%;
+}
+
+.search-dt {
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 13px;
+}
+
+.search-txt {
+    margin-left: 21px;
+    color: #686b78;
+    width: 93%;
+}
+
+.search-icon {
+    color: #686b78;
+}
+
+.right {
+    width: 27%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-dt{
+    margin-right: 10%;
+    display: -webkit-box;
+
+}
+.cart{
+    margin-left: 31px;
+    background: #22cba3;
+    color: white;
+    border-radius: 12px;
+    padding: 12px 27px;
+    margin-top: -13px;
+    letter-spacing: .5px;
+}
+.cart-dt{
+    background: #32dbb3;
+    font-size: 11px;
+    padding: 2px 6px;
+}
+
+/* end header */
+.slidersection{
+    display: flex;
+    margin: 91px;
+    margin-left: 12%;
+}
+.slidersection-dt{
+    margin: 10px;
+}
+.slider-dt-image img{
+    height: 267.4px;
+    width: 267.4px;
+    border-radius: 8px;
+}
+
+/* shop */
+.category-txt{
+    color: rgb(16 31 60);
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 13%;
+}
+.shop-by-category{
+    margin-top: -2%;
+
+
+}
+.row{
+    margin-left: 12%;
+}
+.category-dt-slider{
+    display: flex;
+}
+.category-dt-image{
+    margin: 10px;
+    width: 167.99px;
+    height: 207.99px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    border-radius: 12px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.category-dt-image img{
+    height: 169.06px;
+    width: 169.06px;
+}
+
+
+/* spices cat */
+.spice-row{
+    margin-left: 12%;
+    margin-top: 50px;
+    display: flex;
+}
+.spices-txt{
+    color: rgb(16 31 60);
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 12%;
+}
+.spices-categorys{
+    margin-top: 5%;
+}
+.spices-image img{
+    width: 107.38px;
+    height: 118.11px;
+}
+.offer{
+    background: #f94d00;
+    color: #fff;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 6px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0;
+    min-width: 35px;
+}
+.offer-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-left: -25px;
+    margin-top: -7px;
+}
+
+.spices-image {
+    position: relative; /* Ensure relative positioning for the parent */
+    margin: 45px;
+
+}
+.spices-dt{
+    border: solid 1px #eee;
+    width: 184px;
+    height: 397px;
+}
+.spices-image img {
+    width: 107.38px;
+    height: 118.11px;
+}
+/* .natural-sign{
+    border: solid 1px #007c00;
+    width: 10px;
+    height: 10px;
+    padding: 2px 4px;
+    margin-left: -21px;
+    margin-top: -13px;
+} */
+
+.natural-sign {
+    position: absolute;
+    top: -13px;
+    right: -21px;
+    border: solid 1px #007c00;
+    width: 10px;
+    height: 10px;
+    padding: 2px 2px;
+    margin-top: 119px;
+    margin-right: 107%;
+}
+
+
+.natural-sign-icon{
+    width: 8px;
+    height: 8px;
+    border-radius: 123%;
+    background: green;
+    margin: 1px;
+    
+}
+.food-natural{
+    font-weight: 400;
+    color: #898a8d;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.sugar{
+    color: #2d374b;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 6px;
+    min-height: 36px;
+}
+.quant-dt{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.2px;
+    font-weight: 400;
+    color: #898a8d;
+}
+.price{
+    color: #2d374b;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.add-btn{
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    color: #18af8b;
+    font-size: 15px;
+    font-weight: 800;
+    border: solid 1px #18af8b;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    padding: 7px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 28px;
+    width: 151%;
+    margin-top: 28px;
+    margin-left: -37px;
+}
+.foodnature-dt{
+    margin-left: -36px;
+}
+
+.discount{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #898a8d;
+}
+.slide-leftarrow{
+    margin-left: -93px;
+    border-radius: 50%;
+    background: #cecccc9e;
+    padding: 7px 7px 7px 7px;
+    font-size: 21px;
+    color: white;
+}
+
+/* flours category */
+.flours-category{
+    margin-top: 5%;
+}
+.flours-row{
+    display: flex;
+    margin-left: 12%;
+}
+.flour-image{
+    margin: 10px;
+}
+.flour-image img{
+    width: 263.4px;
+    height: 263.4px;
+}
+.quant-dt-price{
+    margin-top: 18px;
+}
+
+
+/* about sction */
+
+.about-section{
+    background: #f7f9ff;
+    color: #9fa1a7;
+    padding: 23px;
+}
+.about-dt span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 20px 0 20px 0;
+    display: block;
+}
+.about-dt{
+    font-size: 14px;
+    line-height: 25px;
+}
+.about-dt p{
+    margin: 9px;
+    line-height: 23px;
+}
+
+
+/* footer */
+.footer-dt{
+    display: flex;
+    background: black;
+    color: white;
+    padding-top: 0%;
+}
+.footer-dt-elements{
+    margin: 75px;
+    line-height: 33px;
+}
+.footer-dt-elements ul{
+    list-style: none;
+}
+.footer-dt-elements li{
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #f7eeee;
+}
+.ul-title{
+    font-size: 16px;
+    font-weight: 600;
+}
